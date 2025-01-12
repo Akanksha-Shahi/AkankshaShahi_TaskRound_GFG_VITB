@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #0f9d58;
+    color: #fff;
+    padding: 1em 2em;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container img {
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button.sign-in {
+    padding: 10px 20px;
+    background-color: #fefefe;
+    color: rgb(10, 216, 20);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.sign-in:hover {
+    background-color: #45a049;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h1, h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.courses-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.course-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-options {
+    margin-top: 10px;
+}
+
+.course-item button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-item button:hover {
+    background-color: #45a049;
+}
+
+/* Layout for programming languages */
+.languages-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.languages-grid div {
+    text-align: center;
+}
+
+.languages-grid button {
+    margin-top: 10px;
+}
+
+.languages-grid img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    margin-top: 40px;
+    background-color:#4CAF50 ;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #180441;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
